@@ -1,7 +1,23 @@
 <html>
 <head>
 <title>
-yrtyd
+Why
 </title>
 </head>
+<body>
+<script> var b=document.getElementsByTagName("body")[0];
+    
+    var counter = 0;
+    setInterval(function(){
+        var color;
+        if (counter % 2 == 0) {
+            color = "red"
+        } else {
+            color = "blue";
+        }
+        b.style.backgroundColor= color
+        counter++;
+    }, 1000)
+    </script>
+</body>
 </html>
